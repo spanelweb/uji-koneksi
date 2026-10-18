@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+    <!-- Background Lingkaran -->
+    <circle cx="32" cy="32" r="30" fill="#121212" stroke="#ff6d00" stroke-width="4" />
+    <!-- Simbol Speedometer / Gauge (Background Arc) -->
+    <path d="M16 40 A 20 20 0 1 1 48 40" fill="none" stroke="#2a2a2a" stroke-width="6" stroke-linecap="round" />
+    <!-- Simbol Speedometer / Gauge (Active Arc) -->
+    <path d="M16 40 A 20 20 0 0 1 42 16" fill="none" stroke="#ff6d00" stroke-width="6" stroke-linecap="round" />
+    <!-- Jarum Indikator -->
+    <line x1="32" y1="32" x2="44" y2="20" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    <circle cx="32" cy="32" r="4" fill="#ff6d00" />
+</svg>
